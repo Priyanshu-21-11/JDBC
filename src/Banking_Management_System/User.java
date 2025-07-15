@@ -8,8 +8,8 @@ import java .util.Scanner;
 
 
 public class User {
-    private Connection connection;
-    private Scanner scanner;
+    private final Connection connection;
+    private final Scanner scanner;
 
     public User(Connection connection, Scanner scanner){
         this.connection = connection;
